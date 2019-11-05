@@ -42,12 +42,12 @@ class App extends Component {
   }
 
   fetchMovieID(movieID) {
-    let url = `https://api.themoviedb.org/3/movie/${movieID}?api_key=cfe422613b250f702980a3bbf9e90716`;
+    let url = `https://api.themoviedb.org/3/movie/${movieID}?api_key=1c9a55dbbb448e0695aa84d30c2421a3&language=ko-KR`;
     this.fetchApi(url)
   }
 
   componentDidMount() {
-    let url = `https://api.themoviedb.org/3/movie/${this.state.movieID}?api_key=cfe422613b250f702980a3bbf9e90716`;
+    let url = `https://api.themoviedb.org/3/movie/${this.state.movieID}?api_key=1c9a55dbbb448e0695aa84d30c2421a3&language=ko-KR`;
     this.fetchApi(url);
 
     // ==============================BLOODHOUND===============================//
@@ -57,7 +57,7 @@ class App extends Component {
       },
       queryTokenizer: Bloodhound.tokenizers.whitespace,
       remote: {
-        url: 'https://api.themoviedb.org/3/search/movie?query=%QUERY&api_key=cfe422613b250f702980a3bbf9e90716',
+        url: 'https://api.themoviedb.org/3/search/movie?query=%QUERY&api_key=1c9a55dbbb448e0695aa84d30c2421a3&language=ko-KR',
         filter: function (movies) {
           return $.map(movies.results, function (movie) {
             return {
