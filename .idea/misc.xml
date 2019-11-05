@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="D:/PhpstormProjects/smartwms/middlework/vendor/composer/vendor/bin/phpmd" />
+    </phpmd_settings>
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration max_messages_per_file="100" standards="Cafe24;EC;ECJS;MySource;PEAR;PHP53Compatibility;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="D:/PhpstormProjects/smartwms/middlework/vendor/composer/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+</project>
