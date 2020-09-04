@@ -14,7 +14,7 @@
     "bloodhound-js": "^1.2.1",
     "es6-promise": "^4.0.5",
     "fetch-ie8": "^1.4.3",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "numeral": "^1.4.5",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
